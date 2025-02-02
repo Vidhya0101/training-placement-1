@@ -4,6 +4,7 @@ int a, b, temp;
 printf("Enter two numbers:");
 scanf("%d %d", &a, &b);
 printf("Before Swapping: a = %d, b = %d\n", a, b);
+  
 temp = a;
 a = b;
 b = temp;
